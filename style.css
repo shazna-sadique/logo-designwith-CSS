@@ -1,0 +1,19 @@
+/* use # for id */
+#chrome {
+    border-radius : 50%;
+    position : relative ;
+    overflow: hidden;
+    height: 210px;
+    width: 210px;
+    left: 40vw; /*viewport with : for responsiveness , relativeness of 
+    width and height give cross device comaptabiliy*/
+    top: 30vh;
+}
+
+#center{
+    background: #0d6cac;
+    height: 90px;
+    width: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+}

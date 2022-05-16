@@ -17,7 +17,17 @@
     margin-left: -45px;
     background: #0d6cac;
     margin-top: -45px;
-
-
 }
-    
+#circle{
+    background: orange;
+    height: 104px;
+    width: 104px;
+    margin-top: -48px;
+    margin-left: -48px;
+} 
+#center,#circle{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}   

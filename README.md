@@ -14,3 +14,5 @@ and gapes filled by using pseudoelement :after ,
 
 followed dev.to article . 
 https://dev.to/maxwizardth/how-to-design-chrome-logo-with-html-and-css-only-29e3
+![Screenshot (155)](https://user-images.githubusercontent.com/55852938/169640114-a3e51ada-cba9-4ddc-8781-da30631e1400.png)
+

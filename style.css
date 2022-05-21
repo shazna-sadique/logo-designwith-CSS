@@ -1,0 +1,93 @@
+/* use # for id */
+#chrome {
+    border-radius : 50%;
+    position : relative ;/*Elements are  positioned using the top, bottom, left, and right . However, 
+    these properties will not work unless the position property is set first.*/
+    overflow: hidden;
+    height: 210px;
+    width: 210px;
+    left: 40vw; /*viewport with : for responsiveness , relativeness of 
+    width and height give cross device comaptabiliy*/
+    top: 30vh;
+}
+
+#center{
+    background: #0d6cac;
+    height: 90px;
+    width: 90px;
+    margin-left: -45px;
+    background: #0d6cac;
+    margin-top: -45px;
+}
+#circle{
+    background: white;
+    height: 104px;
+    width: 104px;
+    margin-top: -48px;
+    margin-left: -48px;
+} 
+#center,#circle{ /* circle and center should be similar  */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}   
+#division1{
+    background-color: #e93c35;
+    position:absolute;
+    top:0;
+    left: 34px;
+    width: 200px;
+    height: 65px;
+}
+
+#division1:after{
+    position: absolute;
+    top: 0;
+    left: -90px;
+    width: 200px;
+    height: 60px;
+    transform: rotate(60deg);
+    content: " ";
+    background:#e93c35; 
+}
+
+#division2{
+    background-color: #fdd901;
+    position:absolute;
+    top: 131px;
+    left: 56px;
+    width: 200px;
+    height: 65px;
+    transform: rotate(120deg);
+    
+}
+#division2:after{
+   position: absolute;
+   top: 0;
+   left: -85px;
+   width: 200px;
+   height: 60px;
+   transform: rotate(60deg);
+   content: " ";
+   background:#fdd901 ; 
+}
+#division3{
+    background-color:#5bc15b ;
+    position: absolute;
+    top: 88px;
+    left: -74px;
+    width: 200px;
+    height: 65px;
+    transform: rotate(-120deg);
+}
+#division3:after{
+    position: absolute;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 60px; ;
+    transform: rotate(60deg);
+    content: " ";
+    background:#5bc15b;
+}

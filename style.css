@@ -20,7 +20,7 @@
     margin-top: -45px;
 }
 #circle{
-    background: orange;
+    background: white;
     height: 104px;
     width: 104px;
     margin-top: -48px;
@@ -38,19 +38,18 @@
     top:0;
     left: 34px;
     width: 200px;
-    height: 60px;
+    height: 65px;
 }
 
 #division1:after{
-    /*The ::after pseudo-element can be used to insert some 
-    content after the content of an element.*/
+    position: absolute;
+    top: 0;
+    left: -90px;
+    width: 200px;
+    height: 60px;
     transform: rotate(60deg);
     content: " ";
-    background:#e93c35;
-    top: 0;
-    left: -91px;
-    width: 200px;
-    height: 60px; 
+    background:#e93c35; 
 }
 
 #division2{
@@ -63,6 +62,16 @@
     transform: rotate(120deg);
     
 }
+#division2:after{
+   position: absolute;
+   top: 0;
+   left: -85px;
+   width: 200px;
+   height: 60px;
+   transform: rotate(60deg);
+   content: " ";
+   background:#fdd901 ; 
+}
 #division3{
     background-color:#5bc15b ;
     position: absolute;
@@ -71,4 +80,14 @@
     width: 200px;
     height: 65px;
     transform: rotate(-120deg);
+}
+#division3:after{
+    position: absolute;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 60px; ;
+    transform: rotate(60deg);
+    content: " ";
+    background:#5bc15b;
 }

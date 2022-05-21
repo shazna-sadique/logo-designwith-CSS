@@ -1,7 +1,8 @@
 /* use # for id */
 #chrome {
     border-radius : 50%;
-    position : relative ;
+    position : relative ;/*Elements are  positioned using the top, bottom, left, and right . However, 
+    these properties will not work unless the position property is set first.*/
     overflow: hidden;
     height: 210px;
     width: 210px;
@@ -26,11 +27,48 @@
     margin-left: -48px;
 } 
 #center,#circle{ /* circle and center should be similar  */
-/*border-radius: 50%;*/
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
 }   
 #division1{
+    background-color: #e93c35;
+    position:absolute;
+    top:0;
+    left: 34px;
+    width: 200px;
+    height: 60px;
+}
+
+#division1:after{
+    /*The ::after pseudo-element can be used to insert some 
+    content after the content of an element.*/
+    transform: rotate(60deg);
+    content: " ";
+    background:#e93c35;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 60px; 
+}
+
+#division2{
+    background-color: #fdd901;
+    position:absolute;
+    top: 131px;
+    left: 56px;
+    width: 200px;
+    height: 65px;
+    transform: rotate(120deg);
     
+}
+#division3{
+    background-color:#5bc15b ;
+    position: absolute;
+    top: 88px;
+    left: -74px;
+    width: 200px;
+    height: 65px;
+    transform: rotate(-120deg);
 }
